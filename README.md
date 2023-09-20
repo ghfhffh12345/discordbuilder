@@ -71,3 +71,57 @@ _위 채널들과 **같은 이름의 채널**을 만들거나 임의로 **변경
 >
 > 새로운 역할을 생성합니다.  
 > 역할의 컨셉은 [Role](#role)을 참고하세요.
+
+## Delete
+
+> ```
+> /deletechannel [channel: 삭제할 채널]
+> ```
+>
+> 지정한 채널을 삭제합니다.
+>
+> ```
+> /deleterole [role: 삭제할 역할]
+> ```
+>
+> 지정한 역할을 삭제합니다.
+>
+> ```
+> /deleteroles
+> ```
+>
+> 모든 역할을 삭제합니다.
+
+## Edit
+
+> ```
+> /editrole [channel: 삭제할 채널] [concept: 역할의 컨셉] [name: 역할의 이름] [hoist: 역할을 다른 맴버와 분리] [position: 역할의 위치]
+> ```
+>
+> 지정한 역할을 수정합니다.
+>
+> ```
+> /overwriterole [channel: 역할 권한을 설정할 채널] [role: 설정할 역할] [concept: 채널에서의 역할 컨셉]
+> ```
+>
+> 채널의 역할 권한을 설정합니다.
+>
+> ```
+> /overwriteuser [channel: 유저 권한을 설정할 채널] [user: 설정할 유저] [concept: 채널에서의 유저 컨셉]
+> ```
+>
+> 채널의 유저 권한을 설정합니다.
+
+## Clone
+
+> ```
+> /cloneCategory [category: 복사할 카테고리] [name: 카테고리의 이름]
+> ```
+>
+> 지정한 카테고리의 복사본을 생성합니다.
+>
+> ```
+> /clonechannel [channel: 복사할 채널] [name: 채널의 이름] [category: 채널의 카테고리]
+> ```
+>
+> 지정한 채널의 복사본을 생성합니다.
